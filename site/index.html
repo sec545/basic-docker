@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Security Resources</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <style>
+    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 1200px}
+
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container-fluid">
+    <div class="row content">
+      <div class="col-sm-3 sidenav">
+        <h4>Security Resources</h4>
+        <ul class="nav nav-pills nav-stacked">
+          <li class="active"><a href="#section0">Security Blogs</a></li>
+          <li><a href="#section1">Security Bulletins</a></li>
+          <li><a href="#section2">Security Configuration</a></li>
+          <li><a href="#section3">Exploits &amp; Vulnerabilities</a></li>
+          <li><a href="#section4">Open Source Intelligence</a></li>
+        </ul><br>
+      </div>
+
+      <div class="col-sm-9">
+        <div id="section0">
+          <h2>Security Blogs &amp; Resources</h2>
+          <hr>
+          <div class="col-sm-4">
+            <h4><a href="https://www.sans.org/blog/">SANS Cyber Security</a></h4>
+            <h4><a href="https://www.sans.org/reading-room/whitepapers/automation">&#x21AA; Automation</a></h4>
+            <h4><a href="https://www.sans.org/reading-room/whitepapers/bestprac">&#x21AA; Best Practices</a></h4>
+            <h4><a href="https://www.sans.org/reading-room/whitepapers/cloud">&#x21AA; Cloud Security</a></h4>
+          </div>
+          <div class="col-sm-4">
+            <h4><a href="https://aws.amazon.com/blogs/security/">AWS Security</a></h4>
+            <h4><a href="https://azure.microsoft.com/en-us/blog/topics/security/">Azure Security</a></h4>
+            <h4><a href="https://security.googleblog.com/">Google Security</a></h4>
+            <h4><a href="https://blogs.oracle.com/cloudsecurity/">Oracle Cloud Security</a></h4>
+          </div>
+          <div class="col-sm-4">
+            <h4><a href="https://blog.aquasec.com/">Aqua Security</a></h4>
+            <h4><a href="https://cloudsecurityalliance.org/blog/">Cloud Security Alliance</a></h4>
+            <h4><a href="https://rhinosecuritylabs.com/blog/">Rhino Security Labs</a></h4>
+            <h4><a href="https://threatpost.com/category/cloud-security/">Threatpost Cloud Security</a></h4>
+          </div>
+        </div>   
+      </div>
+
+      <div class="col-sm-9">
+        <div id="section1">
+          <h2>Security Bulletins</h2>
+          <hr>
+          <div class="col-sm-4">
+            <h4><a href="https://aws.amazon.com/security/security-bulletins">AWS</a></h4>
+            <h4><a href="https://cloud.google.com/compute/docs/security-bulletins">Google</a></h4>
+            <h4><a href="https://technet.microsoft.com/en-us/security/bulletins">Microsoft</a></h4>
+          </div>
+          <div class="col-sm-4">
+            <h4><a href="https://access.redhat.com/security/security-updates/#/">Red Hat</a></h4>
+            <h4><a href="https://ubuntu.com/security/notices">Ubuntu</a></h4>
+          </div>
+          <div class="col-sm-4">
+            <h4><a href="https://www.oracle.com/technetwork/topics/security/alerts-086861.html">Oracle</a></h4>
+          </div>
+        </div>   
+      </div>
+
+      <div class="col-sm-9">
+        <div id="section2">
+          <h2>Security Configurations</h2>
+          <hr>
+          <div class="col-sm-4">
+            <h4><a href="https://mozilla.github.io/server-side-tls/ssl-config-generator/">SSL Configuration Generator</a></h4>
+          </div>
+          <div class="col-sm-4">
+            <h4><a href="https://www.madboa.com/geek/openssl/#how-do-i-create-an-elliptic-curve-key">OpenSSL Command Line</a></h4>
+          </div>
+          <div class="col-sm-4">
+            <h4><!--<a href="#"></a>-->&nbsp;</h4>
+          </div>
+        </div>   
+      </div>
+
+      <div class="col-sm-9">
+        <div id="section3">
+          <h2>Exploits &amp; Vulnerabilities</h2>
+          <hr>
+          <div class="col-sm-4">
+            <h4><a href="https://www.exploit-db.com/ ">Exploit DB</a></h4>
+            <h4><a href="https://cve.mitre.org/cve/cve.html">Mitre (Search CVEs)</a></h4>
+          </div>
+          <div class="col-sm-4">
+            <h4><a href="https://nvd.nist.gov/vuln/categories">NIST (categories)</a></h4>
+            <h4><a href="https://nvd.nist.gov/vuln/search">NIST (Search CVEs)</a></h4>
+          </div>
+          <div class="col-sm-4">
+            <h4><a href="https://attack.mitre.org/wiki/Main_Page">Mitre ATT&amp;CK</a></h4>
+            <h4><a href="https://capec.mitre.org/">Mitre CAPEC</a></h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-9">
+        <div id="section4">
+          <h2>OSINT</h2>
+          <hr>
+          <div class="col-sm-4">
+            <h4><a href="http://whois.domaintools.com">Whois (Domain Tools)</a></h4>
+            <h4><a href="http://archive.org">Wayback Machine</a></h4>
+            <h4><a href="http://iplocation.net">IP Location</a></h4>
+            <h4><a href="http://shodan.io">Shodan</a></h4>
+            <h4><a href="https://wigle.net/">Wigle</a></h4>
+            <h4>&nbsp;</h4>
+            <h4><a href="https://www.ssllabs.com/ssltest/">SSL Labs</a></h4>
+            <h4><a href="https://www.exploit-db.com/google-hacking-database/">Google Hacking Database</a></h4>
+          </div>  
+          <div class="col-sm-4">
+            <h4><a href="http://www.ipvoid.com">IP Void</a></h4>
+            <h4><a href="http://urlvoid.com">URL Void</a></h4>
+            <h4><a href="https://iplists.firehol.org/">Fire HOL</a></h4>
+            <h4><a href="https://www.threatminer.org">Threat Miner</a></h4>
+            <h4><a href="https://threatcrowd.org/">Threat Crowd</a></h4>
+          </div>
+          <div class="col-sm-4">
+            <h4><a href="http://www.malwaredomainlist.com/">Malware Domain List</a></h4>
+            <h4><a href="http://virustotal.com">Virus Total</a></h4>
+            <h4><a href="http://hybrid-analysis.com">Hybrid Analysis</a></h4>
+            <h4><a href="http://totalhash.cymru.com">Total Hash</a></h4>
+            <h4><a href="http://malc0de.com/database/">Malcode</a></h4>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</div>
+</body>
+</html>
+
